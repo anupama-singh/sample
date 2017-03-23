@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>position</title>
+    <style>
+         .box {
+                height: 200px;
+                width:  200px;
+                border: 1px solid;
+        }
+         .bg-red {
+                background-color: red;
+        }
+        .bg-green {
+                background-color: green;
+                
+        }
+        .bg-blue {
+                background-color: blue;
+        }
+        .pos {
+                position: absolute;
+                top: 00px;
+                left: 00px;
+        }
+        .big-box {
+            height: 400px;
+            width: 400px;
+            border: 1px solid;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+        .small-box {
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+            background-color: red;
+            position:absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="box bg-red">
+    </div>
+    <div class="box  bg-green pos">
+    </div>
+    <div class="box bg-blue">
+    </div>
+    <div class="big-box">
+        <div class="small-box ">
+        </div>
+    </div>
+</body>
+</html>
